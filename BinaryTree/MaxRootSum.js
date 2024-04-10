@@ -7,6 +7,9 @@ function maxPathSum(root) {
   return root.val + Math.max(maxPathSum(root.left), maxPathSum(root.right));
 }
 
+// Time - O(n)
+// Space - O(n)
+
 class Node {
   constructor(val) {
     this.val = val; 
